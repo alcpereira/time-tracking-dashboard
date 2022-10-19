@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+.card {
+  border-radius: 1em;
+  background-repeat: no-repeat;
+  background-position: 95% 0%;
+  display: flex;
+  flex-direction: column;
+}
+.card.bg-work {
+  background-color: hsl(15deg, 100%, 70%);
+  background-image: url("../../assets/backgrounds/icon-work.svg");
+  background-position-y: -10%;
+}
+.card.bg-exercise {
+  background-color: hsl(145deg, 58%, 55%);
+  background-image: url("../../assets/backgrounds/icon-exercise.svg");
+}
+.card.bg-play {
+  background-color: hsl(195deg, 74%, 62%);
+  background-image: url("../../assets/backgrounds/icon-play.svg");
+  background-position-y: -5%;
+}
+.card.bg-selfcare {
+  background-color: hsl(43deg, 84%, 65%);
+  background-image: url("../../assets/backgrounds/icon-self-care.svg");
+  background-position-y: -10%;
+}
+.card.bg-social {
+  background-color: hsl(264deg, 64%, 52%);
+  background-image: url("../../assets/backgrounds/icon-social.svg");
+  background-position-y: -25%;
+}
+.card.bg-study {
+  background-color: hsl(348deg, 100%, 68%);
+  background-image: url("../../assets/backgrounds/icon-study.svg");
+  background-position-y: -10%;
+}
+.card .bg-card {
+  height: 2.375em;
+}
+
+.info {
+  background-color: hsl(235deg, 46%, 20%);
+  padding-inline: 1.5em;
+  padding-block: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 1.125em;
+  border-radius: 1em;
+  flex-grow: 1;
+}
+.info:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+}
+.info--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.info--top h2 {
+  font-size: 0.875em;
+}
+.info--top .svg-holder {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.25em;
+  fill: hsl(235deg, 45%, 61%);
+}
+.info--top .svg-holder:hover {
+  fill: white;
+}
+.info--bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info--bottom h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+}
+@media (min-width: 800px) {
+  .info--bottom h3 {
+    font-size: 3rem;
+  }
+}
+.info--bottom span {
+  font-weight: 300;
+  color: hsl(235deg, 45%, 61%);
+}
+@media (min-width: 800px) {
+  .info--bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}/*# sourceMappingURL=Card.css.map */

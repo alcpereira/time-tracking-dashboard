@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+
+$font: 'Rubik';
+
+
+// COLORS
+// BACKGROUNDS
+$clr-bg-900: hsl(226, 43%, 10%);
+$clr-bg-700: hsl(235, 46%, 20%);
+$clr-bg-400: hsl(246, 80%, 60%);
+
+// SPECIFIC BACKGROUNDS
+$clr-bg-work: hsl(15, 100%, 70%);
+$clr-bg-play: hsl(195, 74%, 62%);
+$clr-bg-study: hsl(348, 100%, 68%);
+$clr-bg-exercise: hsl(145, 58%, 55%);
+$clr-bg-social: hsl(264, 64%, 52%);
+$clr-bg-selfcare: hsl(43, 84%, 65%);
+
+// FONTS
+$clr-font-100: white;
+$clr-font-400: hsl(235, 45%, 61%);
+
+// BREAKPOINTS
+$layout-breakpoint-small: 800px;
